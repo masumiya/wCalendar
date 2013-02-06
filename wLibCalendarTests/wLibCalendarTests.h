@@ -7,7 +7,13 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "wLibCalendarJp.h"
 
 @interface wLibCalendarTests : SenTestCase
+{
+@private
+    wLibCalendarJp* cal_jp;
+   
+}
 
 @end

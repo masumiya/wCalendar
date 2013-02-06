@@ -16,6 +16,7 @@
 		98231A5F16BE9CFF002E4E89 /* libwLibCalendar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98231A4616BE9CFE002E4E89 /* libwLibCalendar.a */; };
 		98231A6516BE9CFF002E4E89 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98231A6316BE9CFF002E4E89 /* InfoPlist.strings */; };
 		98231A6816BE9CFF002E4E89 /* wLibCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98231A6716BE9CFF002E4E89 /* wLibCalendarTests.m */; };
+		98231A7316BE9F94002E4E89 /* wLibCalendarJp.m in Sources */ = {isa = PBXBuildFile; fileRef = 98231A7216BE9F94002E4E89 /* wLibCalendarJp.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		98231A6416BE9CFF002E4E89 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98231A6616BE9CFF002E4E89 /* wLibCalendarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wLibCalendarTests.h; sourceTree = "<group>"; };
 		98231A6716BE9CFF002E4E89 /* wLibCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wLibCalendarTests.m; sourceTree = "<group>"; };
+		98231A7116BE9F94002E4E89 /* wLibCalendarJp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wLibCalendarJp.h; sourceTree = "<group>"; };
+		98231A7216BE9F94002E4E89 /* wLibCalendarJp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wLibCalendarJp.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,8 @@
 				98231A4E16BE9CFE002E4E89 /* wLibCalendar.h */,
 				98231A5016BE9CFE002E4E89 /* wLibCalendar.m */,
 				98231A4C16BE9CFE002E4E89 /* Supporting Files */,
+				98231A7116BE9F94002E4E89 /* wLibCalendarJp.h */,
+				98231A7216BE9F94002E4E89 /* wLibCalendarJp.m */,
 			);
 			path = wLibCalendar;
 			sourceTree = "<group>";
@@ -244,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98231A5116BE9CFE002E4E89 /* wLibCalendar.m in Sources */,
+				98231A7316BE9F94002E4E89 /* wLibCalendarJp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +342,7 @@
 				DSTROOT = /tmp/wLibCalendar.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wLibCalendar/wLibCalendar-Prefix.pch";
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -348,6 +355,7 @@
 				DSTROOT = /tmp/wLibCalendar.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "wLibCalendar/wLibCalendar-Prefix.pch";
+				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -403,6 +411,7 @@
 				98231A6D16BE9CFF002E4E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98231A6E16BE9CFF002E4E89 /* Build configuration list for PBXNativeTarget "wLibCalendarTests" */ = {
 			isa = XCConfigurationList;
@@ -411,6 +420,7 @@
 				98231A7016BE9CFF002E4E89 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

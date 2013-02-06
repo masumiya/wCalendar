@@ -10,4 +10,6 @@
 
 @interface wLibCalendar : NSObject
 
+- (int)getWeekday:(int)year month:(int)month day:(int)day;
+
 @end
