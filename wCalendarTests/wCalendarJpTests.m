@@ -1,24 +1,24 @@
 //
-//  wLibCalendarTests.m
-//  wLibCalendarTests
+//  wCalendarTests.m
+//  wCalendarTests
 //
 //  Created by masumiya on 2013/02/03.
 //  Copyright (c) 2013年 masumiya. All rights reserved.
 //
 
-#import "wLibCalendarTests.h"
+#import "wCalendarJpTests.h"
 
-#import "wLibCalendarJp.h"
+#import "wCalendarJp.h"
 
-@implementation wLibCalendarTests
+@implementation wCalendarJpTests
 
 - (void)setUp
 {
     [super setUp];
     
     // Set-up code here.
-    cal_jp = [[wLibCalendarJp alloc] init];
-    STAssertNotNil(cal_jp, @"cannot create wLibCalendarJp instance.");
+    cal_jp = [[wCalendarJp alloc] init];
+    STAssertNotNil(cal_jp, @"cannot create wCalendarJp instance.");
 }
 
 - (void)tearDown

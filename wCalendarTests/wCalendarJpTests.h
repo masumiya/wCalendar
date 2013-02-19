@@ -1,18 +1,18 @@
 //
-//  wLibCalendarTests.h
-//  wLibCalendarTests
+//  wCalendarTests.h
+//  wCalendarTests
 //
 //  Created by masumiya on 2013/02/03.
 //  Copyright (c) 2013年 masumiya. All rights reserved.
 //
 
 #import <SenTestingKit/SenTestingKit.h>
-#import "wLibCalendarJp.h"
+#import "wCalendarJp.h"
 
-@interface wLibCalendarTests : SenTestCase
+@interface wCalendarJpTests : SenTestCase
 {
 @private
-    wLibCalendarJp* cal_jp;
+    wCalendarJp* cal_jp;
    
 }
 
