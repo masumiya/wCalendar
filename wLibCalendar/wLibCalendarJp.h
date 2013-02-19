@@ -10,6 +10,7 @@
 
 @interface wLibCalendarJp : wLibCalendar
 
-- (bool)isHoliday:(int)year month:(int)month day:(int)day;
+- (BOOL)isHoliday:(NSDate *)date;
+- (BOOL)isHoliday:(int)year month:(int)month day:(int)day;
 
 @end
